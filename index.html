@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Super Games 666</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <br>
+    <header>Super Games 666</header>
+    <br>
+    <br>
+    <video id="tutorial" autoplay>
+      <source src="tutorial.mp4" type="video/mp4">
+    </video>
+	<br>
+	<button onclick="playVid()">Click to view games</button>
+    <script>
+var vid = document.getElementById("tutorial");
+
+function playVid() {
+    vid.play();
+	document.getElementById("tutorial").style.width = "640px";
+	document.getElementById("tutorial").style.height = "480px";
+} 
+    </script>
+  </body>
+</html>

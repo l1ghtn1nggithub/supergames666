@@ -1,0 +1,18 @@
+body {
+  font-family: Arial;
+  background-color: gray;
+  text-align: center;
+}
+header {
+  font-size: 64px;
+}
+p {
+  font-size: 32px;
+}
+button {
+  font-size: 32px;
+}
+video {
+  width: 0px;
+  height: 0px;
+}
